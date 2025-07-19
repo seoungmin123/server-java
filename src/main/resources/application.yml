@@ -27,5 +27,12 @@ spring.config.activate.on-profile: local, test
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/hhplus?characterEncoding=UTF-8&serverTimezone=UTC
-    username: application
-    password: application
+    username: root
+    password: DLtmdals0106!!!
+
+---
+springdoc:
+  api-docs:
+    path: /docs/swagger-docs
+  swagger-ui:
+    path: /docs/swagger
